@@ -1,7 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 import numpy as np
-from keras.applications.ConvNeXtLarge import preprocess_input
+from keras.applications.convnext import ConvNeXtLarge , preprocess_input
 from PIL import Image
 
 
